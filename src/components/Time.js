@@ -9,6 +9,7 @@ const Time = () => {
 // Set the Array Count to Get Time
   const currentTime = () => {
     getTime(new Date().toLocaleTimeString());
+    setInterval(currentTime, 1000);
   }
 
 
