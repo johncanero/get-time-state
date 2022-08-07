@@ -1,18 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Time from './components/Time';
 
 function App() {
   return (
-    <div className="container">
-        <h1>TIME</h1>
-        <button>Get Time</button>
+    <div>
+        <Time />
    </div>
   );
 }
 
 export default App;
 
-
-// console.log
-let time = new Date().toLocaleTimeString();
-console.log(time);
