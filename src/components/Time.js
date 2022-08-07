@@ -3,14 +3,15 @@ import React, { useState } from 'react';
 const Time = () => {
 
  // Declare a new state variable, which we'll call "count"
-  const [time, getTime] = useState("TIME");
+  const [time, setTime] = useState("TIME");
 
 
 // Set the Array Count to Get Time
   const currentTime = () => {
-    getTime(new Date().toLocaleTimeString());
-    setInterval(currentTime, 1000);
+    setTime(new Date().toLocaleTimeString('en-GB'));
   }
+
+  setInterval(currentTime, 1000);
 
 
   return (
@@ -26,6 +27,3 @@ const Time = () => {
 export default Time
 
 
-// console.log
-let time = new Date().toLocaleTimeString();
-console.log(time);
