@@ -30,3 +30,26 @@ button {
   font-weight: bold;
   font-size: 35px;
 }
+
+
+/* Mobile */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 767px) {
+
+    body {
+      width: 300px;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .container {
+      margin: 60% auto;
+    }
+    
+    
+    h1 {
+      font-size: 75px;
+    }
+
+}
