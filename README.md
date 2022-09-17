@@ -15,7 +15,7 @@
 
 <div align="center">
 
-# Number State - Count
+# Get Time State
 
 This is the Get Time State - Count Project on Udemy - Web Development Bootcamp 2022
 
