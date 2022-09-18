@@ -38,7 +38,7 @@ button {
   and (max-device-width: 767px) {
 
     body {
-      width: 300px;
+      width: auto;
       justify-content: center;
       text-align: center;
     }
